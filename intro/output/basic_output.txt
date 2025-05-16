@@ -1,0 +1,8 @@
+In a world full of digital trance,  
+Python makes coding an elegant dance.  
+With its syntax so neat,  
+It can't be beat,  
+Inviting all newcomers to give it a chance.  
+
+"As we all know, it is possible to invent a single machine which can be used to compute any computable sequence. Would it be possible to devise a single machine which can be used to test any computable sequence?"  
+— Alan Turing
