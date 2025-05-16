@@ -88,10 +88,12 @@ for tool_call in response.choices[0].message.tool_calls:
     messages.append(response.choices[0].message)
 
     result = call_function(name, args)
+    # NOTE: the messages are the MEMORY of the conversation
     messages.append(
         {"role": "tool", "tool_call_id": tool_call.id, "content": json.dumps(result)}
     )
 
+messages
 # --------------------------------------------------------------
 # Step 4: Supply result and call model again
 # --------------------------------------------------------------
@@ -118,5 +120,6 @@ new_response = client.beta.chat.completions.parse(
 # --------------------------------------------------------------
 
 final_response = new_response.choices[0].message.parsed
+final_response
 print(final_response.temperature)
 print(final_response.response)
