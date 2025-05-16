@@ -1,0 +1,7 @@
+# 1
+20.3
+The current temperature in Paris is 20.3°C. The weather is pleasant with a mild breeze. Enjoy your day!
+
+# 2
+16.7
+The temperature in Ruislip, London is currently 16.7°C with a wind speed of about 14.6 km/h. It looks like a cool day with a gentle breeze.
